@@ -1,8 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        double circumference = Circle.circumference(20);
-        double area = Circle.area(20);
-        System.out.println(circumference);
-        System.out.println(area);
+        System.out.println(Circle.circumference(7.8));
+        System.out.println();
+        System.out.println(Circle.area(2.5));
     }
 }
